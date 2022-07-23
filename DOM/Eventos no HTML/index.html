@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos</title>
+<script src="eventos.js"></script>
+</head>
+<body>
+    <h1>Eventos nno HTML</h1>
+  
+    <ul>
+        <h2>Eventos são ações que ocorrem num sistema</h2>
+        <li>
+            <p>Podem ocorrer por uma ação do usuário: com um clique de um mouse ou mudança de valor de um campo </p>
+    
+        </li>
+        <li>
+            <p>Que simplismente como um fluxo do próprio sistema: como a página cocluir o seu carregamento</p>
+        </li>
+    </ul>
+    <h3>No HTML conseguimo mapear os eventos e definir ações</h3>
+
+    <p>
+        <input type="button" value="Clique aqui" onclick="clique()">
+    </p>
+    <p> Focus
+        <input type="text" name="focus-txt" id="focus-txt" onfocus="focus()">
+    </p>
+    <p>Blur
+        <input type="text" name="blurtxt" id="blurtxt" onblur="blur()">
+    </p>
+    <p>Change
+        <input type="text" name="changetxt" id="changetxt" onchange="change()">
+    </p>
+    <p onmouseover="over()">
+        Passe o mouse em mim
+    </p>
+
+   
+
+    
+</body>
+</html>

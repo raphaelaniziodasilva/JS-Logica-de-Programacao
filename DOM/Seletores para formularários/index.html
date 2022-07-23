@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seletores</title>
+</head>
+<body>
+    <form action="#">
+        <p>
+            <label for="#">Nome:</label>
+            <input type="text" name="name" id="name" placeholder="Digite seu nome">
+        </p>
+        <!---Para selecionar uma cor-->
+        <p>
+            <label for="#"> Cor Primária:</label>
+            <br>
+            <select name="color" id="color">
+                <option value="yellow"> Yellow </option>
+                <option value="blue">Blue</option>
+                <option value="red">Red</option>
+            </select>
+        </p>
+        <!--Para ecolher a opção Sim ou Não-->
+        <p>
+            <label for="#"> Gosta de programar?</label>
+            <br>
+            <input type="radio" value="sim" name="radio" id="radio"> Sim
+            <input type="radio" value="não" name="radio" id="radio"> Não
+        </p>
+        <!--Selecionando varios itens checkbox-->
+        <p>
+            <label for="#"> Conhecimentos em programação Web:</label>
+            <br>
+            <input type="checkbox" value="HTML5" name="developer" id="developer"> HTML5
+            <input type="checkbox" value="CSS" name="developer" id="developer"> CSS
+            <input type="checkbox" value="JACASCRIPT" name="developer" id="developer"> JavaScript
+            <input type="checkbox" value="EXPRESS" name="developer" id="developer"> Express
+            <input type="checkbox" value="NODEJS" name="developer" id="developer"> NodeJs
+            <input type="checkbox" value="REACT" name="developer" id="developer"> React
+        </p>
+        <!--Botão para salvar o formulário-->
+        <input type="button" value="Salvar" onclick="showInfo()">
+    </form>
+
+    <script src="Info.js"></script>
+    
+</body>
+</html>
